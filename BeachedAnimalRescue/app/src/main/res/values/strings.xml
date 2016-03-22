@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Beached Animal Rescue</string>
+    <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="btn_get_location">GET MY LOCATION</string>
+    <string name="btn_start_location_updates">START LOCATION UPDATES</string>
+    <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
+    <string name="btn_report_stranding">Report A Stranding</string>_
+    <string name="whatToDo">Do\'s</string>
+    <string name="dontdo">Dont\'s</string>
+    <string name="title_activity_how_to_help">HowToHelp</string>
+    <string name="action_settings">action_settings</string>
+    <string name="title_activity_report_astranding">ReportAStranding</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_donts">Donts</string>
+    <string name="title_activity_dos">Dos</string>
+
+</resources>

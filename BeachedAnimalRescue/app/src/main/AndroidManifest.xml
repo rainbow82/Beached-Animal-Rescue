@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shannonbeach.beachedanimalrescue" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:protectionLevel="dangerous" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dolphin_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HowToHelp"
+            android:label="@string/title_activity_how_to_help"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.shannonbeach.beachedanimalrescue.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ReportAStranding"
+            android:label="@string/title_activity_report_astranding"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.shannonbeach.beachedanimalrescue.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Donts"
+            android:label="@string/title_activity_donts"
+            android:parentActivityName=".ReportAStranding" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.shannonbeach.beachedanimalrescue.ReportAStranding" />
+        </activity>
+        <activity
+            android:name=".Dos"
+            android:label="@string/title_activity_dos"
+            android:parentActivityName=".ReportAStranding" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.shannonbeach.beachedanimalrescue.ReportAStranding" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:background="@drawable/bg_gradient" >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/dolphin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/lbl_you_are_at"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/lbl_you_are_at"/>
+
+    <TextView
+        android:id="@+id/lblLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnShowLocation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#F7F2D2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/btn_get_location"
+        android:textColor="#ff0ee7"
+        android:textSize="18sp"/>
+
+
+    <Button
+        android:id="@+id/btnLocationUpdates"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#F7F2D2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Update Location"
+        android:textColor="#ff1dfe"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnReportStranding"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#F7F2D2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/btn_report_stranding"
+        android:textColor="#ff0ee7"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>

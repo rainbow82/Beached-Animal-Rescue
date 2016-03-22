@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_gradient"
+                android:id="@+id/layout"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do's"
+        android:id="@+id/lbl_dos"
+        android:layout_alignParentTop="true"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="5dp"
+        android:background="#F7F2D2"
+        android:textColor="#ff0ee7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Be Careful"
+        android:id="@+id/lbl_beCareful"
+        android:layout_below="@+id/lbl_dos"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/be_careful_instructions"
+        android:text="If possible, the animal should be approached from the side or behind, rather than near the head."
+        android:layout_below="@+id/lbl_beCareful"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protect the Skin"
+        android:id="@+id/lbl_protect_skin"
+        android:layout_below="@+id/be_careful_instructions"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/protect_skin_instructions"
+        android:text="Water should be gently and quietly scooped onto exposed skin."
+        android:layout_below="@+id/lbl_protect_skin"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protect the Eyes"
+        android:id="@+id/lbl_protect_eyes"
+        android:layout_below="@+id/protect_skin_instructions"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/protect_eye_instructions"
+        android:text="Protect the eyes by clearing away debris, sand, shells and anything else that could cause damage."
+        android:layout_below="@+id/lbl_protect_eyes"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep Animal Cool"
+        android:id="@+id/lbl_keep_cool"
+        android:layout_below="@+id/protect_eye_instructions"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/protect_keep_cool_instructions"
+        android:text="Feel the dorsal fin and any other exposed skin.  If it feels warm to the touch, additional water should be used to cool it off.  Be sure not to cover the dorsal fin, pectoral fins, or flukes as this can cause the animal to overheat."
+        android:layout_below="@+id/lbl_keep_cool"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont's"
+        android:id="@+id/lbl_donts"
+        android:layout_below="@+id/protect_keep_cool_instructions"
+        android:textSize="30sp"
+        android:background="#F7F2D2"
+        android:textColor="#ff0ee7"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+
+</RelativeLayout>

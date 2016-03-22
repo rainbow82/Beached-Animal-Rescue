@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:background="@drawable/bg_gradient"
+                tools:context="com.shannonbeach.beachedanimalrescue.ReportAStranding"
+                >
+
+    <TextView
+        android:text="Report The Stranding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:id="@+id/lbl_contact"
+        android:textSize="30sp"
+        android:background="#F7F2D2"
+        android:textColor="#ff0ee7"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_who_to_contact"
+        android:layout_below="@id/lbl_contact"
+        android:text="Contact the Rescue Groups"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_rescue_station"
+        android:layout_below="@id/lbl_who_to_contact"
+        android:text="Clearwater Marine Aquarium"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_phone_number"
+        android:layout_below="@id/lbl_rescue_station"
+        android:text="(727)-441-1790 ext.1."
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_rescue_station_sc"
+        android:layout_below="@id/lbl_phone_number"
+        android:text="South Carolina Marine Mammal Stranding Network"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_phone_number_sc"
+        android:layout_below="@id/lbl_rescue_station_sc"
+        android:text="1-800-922-5431"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_helpAnimal"
+        android:layout_below="@id/lbl_phone_number_sc"
+        android:text="Help The Animal"
+        android:textSize="30sp"
+        android:background="#F7F2D2"
+        android:textColor="#ff0ee7"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="55dp"
+        />
+
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_helpAnimal"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/btn_dos"
+        android:text="Do\'s"
+        android:textColor="#ff0ee7"
+        android:background="#F7F2D2"
+        android:textSize="24sp"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_helpAnimal"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btn_donts"
+        android:text="Dont\'s"
+        android:textColor="#ff0ee7"
+        android:background="#F7F2D2"
+        android:layout_marginRight="30dp"
+        android:textSize="24sp"/>
+
+</RelativeLayout>
